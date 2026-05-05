@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Arwa Almansour CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="splash-screen">
+        <h1 class="welcome-text">Welcome !</h1>
+        <button id="showBtn" onclick="displayCV()">Show CV</button>
+    </div>
+
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top">Top ↑</button>
+
+    <div id="main-portfolio" style="display: none;">
+        <div class="new-header">
+            <div class="header-left">
+                <img src="logo.jpg" alt="Arwa Logo" class="profile-logo">
+            </div>
+            <div class="header-right">
+                <h1>ARWA ALMANSOUR</h1>
+                <p>COMPUTER SCIENCE STUDENT</p>
+            </div>
+        </div>
+
+        <div class="container">
+            
+            <div class="section-card">
+                <h2 class="section-title">CONTACT</h2>
+                <div class="card-content">
+                    <p>Email: arwaalmansour3@gmail.com</p>
+                    <p>Phone: (+966) 0503982217</p>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">LANGUAGES</h2>
+                <div class="card-content">
+                    <p>Arabic (Native) | English (Professional)</p>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">EDUCATION</h2>
+                <div class="card-content">
+                    <h3>Shaqra University</h3>
+                    <p>Bachelor's degree in computer science, College of Computing and Information Technology</p>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">PROJECTS</h2>
+                <div class="card-content">
+                    <ul class="project-list">
+                        <li>
+                            <strong>• SQL Database Management System</strong>
+                            <ul>
+                                <li>Designed and implemented relational database tables using SQL.</li>
+                                <li>Performed data retrieval using SQL queries.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>• Arduino Smart Assistive Stick</strong>
+                            <ul>
+                                <li>Developed a prototype smart stick for visually impaired users.</li>
+                                <li>Integrated sensors to assist navigation.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>• Cisco Packet Tracer Network Simulation</strong>
+                            <ul>
+                                <li>Designed and configured network topologies.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">CERTIFICATIONS</h2>
+                <div class="card-content">
+                    <ul class="cert-list">
+                        <li>• Database Foundations – Oracle Academy, December 2024</li>
+                        <li>• Python Essentials – Oracle Academy, December 2024</li>
+                        <li>• Cisco Packet Tracer – CISCO Academy, April 2025</li>
+                        <li>• HTML Essentials – CISCO Academy, February 2026</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <h2 class="section-title">SKILLS</h2>
+                <div class="card-content pills-container">
+                    <span class="pill">JavaScript</span>
+                    <span class="pill">Python Programming</span>
+                    <span class="pill">Web Development (HTML, CSS)</span>
+                    <span class="pill">SQL & Database Management</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p id="dateDisplay"></p>
+            <p>&copy; 2026 Arwa Almansour - CSC 304 Project.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
