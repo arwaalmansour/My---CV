@@ -73,7 +73,7 @@ body {
 }
 
 .header-left .profile-logo {
-    width: 220px; /* تم تكبير اللوجو هنا */
+    width: 220px; 
     height: 220px;
     background-color: white;
     border-radius: 50%;
